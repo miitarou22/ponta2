@@ -1,10 +1,8 @@
-a=input()
+#食べ物と個数を入力する
+a=input().split()
 print(a)
 
-a=int(input())
-print(a)
-
-a,b=input().split()
-print(a)
-print(b)
-
+if a == 'hoge' or a == 'fuga':
+        print('coffee')
+    else:
+        print('tea')
